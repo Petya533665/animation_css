@@ -1,0 +1,177 @@
+.box {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.ball {
+    position: absolute;
+    top: 95px;
+    left: 393px;
+    background-image: url(../img/ball.png);
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+    z-index: 5;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.gray {
+    z-index: 1;
+    background-color: darkgray;
+    animation: gray 5s linear infinite alternate;
+    position: absolute;
+    top: 40px;
+    left: 335px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.yellow {
+ 
+    background-color: yellow;
+    animation: yellow 5s linear infinite alternate;
+    position: absolute;
+    top: 98px;
+    left: 381px;
+}
+
+.red {
+ 
+    background-color: firebrick;
+    animation: red 5s linear infinite alternate;
+    position: absolute;
+    top: 85px;
+    left: 328px;
+}
+
+.green {
+    
+    background-color: greenyellow;
+    animation: green 5s linear infinite alternate;
+    position: absolute;
+    top: 28px;
+    left: 342px;
+}
+
+.blue {
+   
+    background-color: dodgerblue;
+    animation: blue 5s linear infinite alternate;
+    position: absolute;
+    top: 46px;
+    left: 396px;
+}
+
+@keyframes yellow {
+    0% {
+        top: 98px;
+        left: 381px;
+    }
+    25% {
+        top: 28px;
+        left: 342px;
+    }
+    50% {
+        top: 85px;
+        left: 328px;
+    }
+    75% {
+        top: 28px;
+        left: 342px;
+    }
+    100% {
+        top: 98px;
+        left: 381px;
+    }
+}
+
+@keyframes red {
+    0% {
+        top: 85px;
+        left: 328px;
+    }
+    25% {
+        top: 98px;
+        left: 381px;
+    }
+    50% {
+        top: 28px;
+        left: 342px;
+    }
+    75% {
+        top: 46px;
+        left: 396px;
+    }
+    100% {
+        top: 85px;
+        left: 328px;
+    }
+}
+
+@keyframes green {
+    0% {
+        top: 28px;
+        left: 342px;
+    }
+    25% {
+        top: 46px;
+        left: 396px;
+    }
+    50% {
+        top: 85px;
+        left: 328px;
+    }
+    75% {
+        top: 98px;
+        left: 381px;
+    }
+    100% {
+        top: 28px;
+        left: 342px;
+    }
+}
+
+@keyframes blue {
+    0% {
+        top: 46px;
+        left: 396px;
+    }
+    25% {
+        top: 85px;
+        left: 328px;
+    }
+    50% {
+        top: 98px;
+        left: 381px;
+    }
+    75% {
+        top: 85px;
+        left: 328px;
+    }
+    100% {
+        top: 46px;
+        left: 396px;
+    }
+}
+
+
+
+@keyframes gray {
+    0% {
+        background-color: grey;
+    }
+    25% {
+        background-color: floralwhite;
+    }
+    50% {
+        background-color: blueviolet;
+    }
+    75% {
+        background-color: darksalmon;
+    }
+    100% {background-color: darkorange;
+    }
+}
